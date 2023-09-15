@@ -1,0 +1,61 @@
+Beatriz Feitosa
+Luiz Henrique Menezes
+
+EXERCÍCIO 1: 
+<?php 
+#apresentar soma de dois numeros inteiros
+#utilizar operadores de incremento e decremento
+
+$x = 2;
+$z = 4;
+$r = $x + $z;
+echo 'resultado: ', $r;
+echo '<br>';
+
+if ($r % 2 == 0){
+    $r += 1;
+    echo $r;
+} else {
+    $r -= 1;
+    echo $r;
+}
+?>
+
+_____________________________________________________________________________
+
+EXERCÍCIO 2:
+<?php 
+#apresentar a area de um circulo
+
+#pi = 3,14159
+#raio = 5
+
+$p = 3.14159;
+$r = 5;
+
+$a = $p * ($r ** 2);
+echo 'a area do circulo é: ', $a;
+?>
+
+_____________________________________________________________________________
+
+EXERCÍCIO 3:
+<?php 
+#apresentar a area de diferentes formas geometricas
+# quadrado com çado 4cm 
+# triangulo base 3, altura 2
+#trapezio basemaior = 4, basemenor= 2, altura = 3
+
+$q = 4;
+echo 'resultado quadrado: ', $q ** 2;
+
+echo '<br>';
+
+$t = (3 * 2) / 2 ;
+echo 'resultado triangulo: ', $t;
+
+echo '<br>';
+
+$tr = ((4 + 2) * 3) / 2;
+echo 'resultado trapezio: ', $tr;
+?>
